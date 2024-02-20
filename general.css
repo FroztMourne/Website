@@ -1,0 +1,11 @@
+body {
+  font-family: Oswald,Arial, Helvetica, sans-serif;
+  background-color: rgb(238, 238, 238);
+  min-height: 450vh;
+  display: flex;
+  flex-direction: column;
+  margin: 110px 0px 0px 0px;
+
+
+}
+
