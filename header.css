@@ -4,7 +4,7 @@
   position: fixed;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(58, 67, 77);
+  background-color: rgba(58, 67, 77, 0.950);
   width: 100%;
   top: 0;
   height: 110px;
