@@ -50,6 +50,11 @@
   max-width: 900px;
   max-height: 540px;
   box-shadow: 10px 5px 30px rgba(0 , 0, 0, 0.637);
+  
+}
+
+.img-container:hover {
+  box-shadow: 10px 5px 60px rgba(255, 167, 36, 0.712);
 }
 
 @media (max-width: 1000px)  {
