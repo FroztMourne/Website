@@ -50,6 +50,7 @@
   max-width: 900px;
   max-height: 540px;
   box-shadow: 10px 5px 30px rgba(0 , 0, 0, 0.637);
+  transition: 0.5s;
   
 }
 
