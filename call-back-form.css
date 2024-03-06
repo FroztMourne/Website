@@ -114,7 +114,7 @@
 @media (max-width:1000px) {
     .call-back-form {
         width: 100%;
-        font-size: 30px;
+        font-size: 50px;
         height: 1200px;
     }
 }
@@ -123,7 +123,7 @@
     .call-back-form button {
         padding: 30px;
         border-radius: 25px;
-        font-size: 30px;
+        font-size: 40px;
         bottom: 35px;
     }
 }
@@ -139,9 +139,9 @@
 
 @media (max-width:1000px) {
     .call-back-form input {
-        height: 110px;
+        height: 90px;
         width: 750px;
-        font-size: 40px;
+        font-size: 50px;
        
     }
 }
