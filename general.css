@@ -15,8 +15,11 @@ body {
 }
 
 
-
-
-
-
-
+@media (max-width:1000px) {
+  .text-box p {
+    margin: 0px;
+    font-size: 45px;
+    width: 750px;
+  
+  }
+}
