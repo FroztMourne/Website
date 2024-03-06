@@ -32,6 +32,7 @@
 @media (max-width: 1500px)  {
   .left-section {
     font-size: 45px;
+    align-self: center;
     
   }
 }
@@ -51,7 +52,7 @@
 @media (max-width: 1000px)  {
   .right-section {
     white-space: nowrap;
-    font-size: 35px;
+    font-size: 26px;
     
   }
 }
@@ -67,6 +68,24 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+.section-row::after {
+  content: "•";
+  margin-left: 15px;
+  color: rgb(0, 255, 0);
+  font-size: 23px;
+  text-shadow: 1px 1px 10px;
+  animation-name: green-dot;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes green-dot {
+  0% { color: rgb(0, 255, 0); text-shadow: 1px 1px 10px;}
+  50% { color: black;}
+  100% { color: rgb(0, 255, 0); text-shadow: 1px 1px 10px;}
+}
+
 
 .footer {
   display: flex;
