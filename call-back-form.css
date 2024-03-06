@@ -109,3 +109,48 @@
 .area1 input[type=number] {
   -moz-appearance: textfield;
 }
+
+
+@media (max-width:1000px) {
+    .call-back-form {
+        width: 100%;
+        font-size: 30px;
+        height: 1200px;
+    }
+}
+
+@media (max-width:1000px) {
+    .call-back-form button {
+        padding: 30px;
+        border-radius: 25px;
+        font-size: 30px;
+        bottom: 35px;
+    }
+}
+
+@media (max-width:1000px) {
+    .call-back-form p {
+        font-size: 50px;
+        margin: 0px 0px 150px;
+        padding: 0px;
+       
+    }
+}
+
+@media (max-width:1000px) {
+    .call-back-form input {
+        height: 110px;
+        width: 750px;
+        font-size: 40px;
+       
+    }
+}
+
+@media (max-width:1000px) {
+    .call-back-form textarea {
+        height: 210px;
+        width: 750px;
+        font-size: 40px;
+       
+    }
+}
