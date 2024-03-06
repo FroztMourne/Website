@@ -118,5 +118,9 @@ hr {
   
 }
 
-
+body>hr{
+  content: "";
+  border: rgb(58, 67, 77) 1px solid;
+  width: 500px;
+}
 
