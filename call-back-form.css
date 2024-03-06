@@ -1,0 +1,105 @@
+.call-back-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 300px;
+    background-color:rgb(58, 67, 77);
+    width: 500px;
+    border-radius: 20px;
+    padding:0px 40px 20px 20px;
+    transition: 0.3s;
+}
+
+.call-back-form:hover {
+    box-shadow: 0px 5px 10px orange;
+}
+
+.call-back-form p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.area1 input {
+    width: 240px;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 5px;
+    background-color: rgb(157, 168, 182);
+    transition: 0.3s;
+    
+}
+
+.area2 input {
+    width: 240px;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 5px;
+    background-color: rgb(157, 168, 182);
+    transition: 0.3s;
+}
+
+.call-back-form label {
+    color: white;
+    display: block;
+
+}
+
+.area3 {
+    margin-top: 20px;
+}
+
+.area3 textarea{ 
+    width: 100%;
+    resize: none;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    outline: none;
+    background-color: rgb(157, 168, 182);
+    transition: 0.6s;
+    border-bottom: transparent 2px solid;
+}
+
+.area1 input:focus,
+.area2 input:focus,
+.area3 textarea:focus {
+    border-bottom: orange 2px solid;
+}
+
+.call-back-form button {
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.04s;
+    border-bottom: grey 5px solid;
+    background-color: rgb(225, 238, 255);
+
+}
+
+.call-back-form button:active {
+    border-bottom: orange 5px solid;
+    
+}
+
+
+
+
+
+
+
+/*для того что бы убрать прокрутку и стрелочки поля input для номера*/
+
+/* Chrome, Safari, Edge, Opera */
+.area1 input::-webkit-outer-spin-button,
+.area1 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.area1 input[type=number] {
+  -moz-appearance: textfield;
+}

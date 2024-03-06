@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="call-back-form.css">
     <link rel="stylesheet" href="content.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,6 +77,27 @@
         <hr>
       </div>
     </section>
+
+    <div class="call-back-form">
+      <form action="">
+        <p>Оставьте свои данные и мы с вами свяжемся!</p>
+        <div class="area1">
+          <label for="number">Ваш номер:</label>
+          <input id="number" type="number" required>
+        </div>
+        <div class="area2">
+          <label for="name">Как вас зовут?</label>
+          <input id="name" type="text" required>
+        </div>
+        <div class="area3"> 
+          <label for="text">Комментарий:</label>
+          <textarea maxlength="260px" name="text" id="text" cols="40" rows="5"></textarea>
+        </div>
+
+        <button class="send-btn">Отправить</button>
+      </form>
+
+    </div>
 
     <footer class="footer"></footer>
   </body>
