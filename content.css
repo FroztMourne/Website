@@ -23,7 +23,6 @@
 @media (max-width: 1600px)  {
   .content-container {
     flex-direction:column ;
-    
   
   }
   
@@ -103,11 +102,27 @@
 
 }
 
+
+
 .text-box p {
   margin: 0px;
   font-size: 25px;
   width: 650px;
 
+}
+
+@media (max-width: 1000px) {
+  .text-box p {
+    font-size: 45px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .text-box {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
 }
 
 hr {
@@ -119,7 +134,7 @@ hr {
   text-align: center;
   font-size: 40px;
   margin-bottom: 70px;
-  width: 500px;
+  width: 600px;
   
 }
 
