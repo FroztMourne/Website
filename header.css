@@ -67,6 +67,18 @@
 display: flex;
 justify-content: center;
 align-items: center;
+
+}
+
+.whatsapp {
+  margin-right: 10px;
+  filter: invert(57%) sepia(86%) saturate(305%) hue-rotate(90deg) brightness(96%) contrast(83%);
+
+}
+
+.telegram {
+  margin-right: 10px;
+  filter: invert(38%) sepia(74%) saturate(1144%) hue-rotate(169deg) brightness(92%) contrast(102%);
 }
 
 .section-row::after {
