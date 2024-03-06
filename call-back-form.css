@@ -90,12 +90,6 @@
     
 }
 
-
-
-
-
-
-
 /*для того что бы убрать прокрутку и стрелочки поля input для номера*/
 
 /* Chrome, Safari, Edge, Opera */
@@ -113,7 +107,7 @@
 
 @media (max-width:1000px) {
     .call-back-form {
-        width: 100%;
+        width: 90%;
         font-size: 50px;
         height: 1200px;
     }
@@ -140,7 +134,7 @@
 @media (max-width:1000px) {
     .call-back-form input {
         height: 90px;
-        width: 750px;
+        width: 90%;
         font-size: 50px;
        
     }
@@ -149,9 +143,10 @@
 @media (max-width:1000px) {
     .call-back-form textarea {
         height: 220px;
-        width: 750px;
+        width: 90%;
         font-size: 45px;
         
        
     }
 }
+
