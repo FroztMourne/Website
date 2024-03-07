@@ -3,6 +3,7 @@
   <head>
     <title>Сварка металла на заказ</title>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="fav.svg">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="call-back-form.css">
@@ -83,22 +84,22 @@
       </div>
     </section>
 
-    <hr>
+    <hr class="hr-anim">
 
     <div class="call-back-form">
       <form >
         <p>Оставьте свои данные и мы с вами свяжемся!</p>
         <div class="area1">
           <label for="number">Ваш номер:</label>
-          <input name="tel" id="number" type="number" required placeholder="+7 *** *** ** **">
+          <input name="tel" id="number" type="number" required placeholder="+7 (•••) ••• •• ••">
         </div>
         <div class="area2">
           <label for="name">Как вас зовут?</label>
-          <input name="name" id="name" type="text" required placeholder="Имя">
+          <input name="name" id="name" type="text" required placeholder="Имя" maxlength="20px">
         </div>
         <div class="area3"> 
           <label for="text">Комментарий:</label>
-          <textarea maxlength="240px" name="comment" id="text" cols="40" rows="5" 
+          <textarea class="comment-section" maxlength="350px" name="comment" id="text" cols="40" rows="5" 
           placeholder="Добавьте здесь свои пожелания,например: позвоните в пятницу после 18:00" ></textarea>
         </div>
 
@@ -106,6 +107,7 @@
       </form>
 
     </div>
+    <hr class="hr-anim">
 
     <footer class="footer"></footer>
   </body>
