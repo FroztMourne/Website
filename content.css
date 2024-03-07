@@ -145,3 +145,14 @@ body>hr{
 }
 
 
+
+@keyframes hr-anim {
+  0% {width: 700px;}
+  50% {width: 150px;}
+  100%{width: 700px;}
+}
+
+.hr-anim {
+  animation: 5s infinite hr-anim linear;
+
+}

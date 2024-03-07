@@ -63,6 +63,7 @@
 .area1 input:focus,
 .area2 input:focus,
 .area3 textarea:focus {
+    background-color: rgb(225, 238, 255);
     border-bottom: orange 2px solid;
 }
 
@@ -70,14 +71,16 @@
     padding: 5px 10px;
     border-radius: 8px;
     border: none;
+    color: white;
     font-size: 25px;
     cursor: pointer;
     transition: 0.04s;
     border-bottom: grey 5px solid;
-    background-color: rgb(225, 238, 255);
+    background-color: rgb(157, 168, 182);
     position: absolute;
     right: 45px;
     bottom: 15px;
+    transition: 0.2s;
 
 }
 
@@ -85,6 +88,20 @@
     border-bottom: orange 5px solid;
     
 }
+
+.call-back-form button:hover {
+    background-color: rgb(225, 238, 255);
+    color: grey;
+    
+}
+
+
+.comment-section:focus::placeholder {
+   
+}
+
+
+
 
 /*для того что бы убрать прокрутку и стрелочки поля input для номера*/
 
@@ -146,3 +163,12 @@
     }
 }
 
+@keyframes hr-anim {
+    0% {width: auto;}
+    100% {width: 150px;}
+}
+
+.hr-anim {
+    animation: 3s infinite hr-anim;
+
+}
