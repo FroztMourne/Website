@@ -34,6 +34,7 @@
     background-color: rgb(157, 168, 182);
     transition: 0.3s;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .call-back-form label {
@@ -58,11 +59,19 @@
     background-color: rgb(157, 168, 182);
     transition: 0.6s;
     border-bottom: transparent 2px solid;
+    cursor: pointer;
 }
 
 .area1 input:focus,
 .area2 input:focus,
 .area3 textarea:focus {
+    background-color: rgb(225, 238, 255);
+    border-bottom: orange 2px solid;
+}
+
+.area1 input:hover,
+.area2 input:hover,
+.area3 textarea:hover {
     background-color: rgb(225, 238, 255);
     border-bottom: orange 2px solid;
 }
