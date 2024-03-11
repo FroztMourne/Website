@@ -43,7 +43,6 @@
   display: flex;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color:rgb(58, 67, 77);
   background-color: #ffa500; /*? тест*/
   height: 100%;
   min-width: 900px;
@@ -54,6 +53,7 @@
   margin-bottom: 100px;
   
 }
+
 
 .img-container2 {
   position: relative;
@@ -79,17 +79,15 @@
 .img-box {
   margin: 15px ;
   display: flex;
-  width: 100%;
+  width: 1000px;
+  height: 500px;
+  background-image: url(Media/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  
 }
 
-.img-box img {
-  width: 100%;
-  height: 100%;
-  border-radius: 0px;
-  box-shadow: -10px -5px 30px rgba(0 , 0, 0, 0.637);
-}
+
 
 .text-box {
   display: flex;

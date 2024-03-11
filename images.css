@@ -1,0 +1,69 @@
+.img-box1 {
+    margin: 15px ;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-image: url(Media/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: ib1 30s infinite step-start reverse;
+  
+  }
+
+
+  @keyframes ib1 {
+    0% {background-image: url(media/3.jpg);}
+    20% {background-image: url(media/4.jpg);}
+    30% {background-image: url(media/5.jpg);}
+    50% {background-image: url(media/6.jpg);}
+    80% {background-image: url(media/2.jpg);}
+    90% {background-image: url(media/1.jpg);}
+    100% {background-image: url(media/3.jpg);}
+    }
+
+  .img-box2 {
+    margin: 15px ;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-image: url(Media/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: ib2 30s infinite step-start alternate-reverse;
+  }
+
+  @keyframes ib2 {
+    0% {background-image: url(media/3.jpg);}
+    20% {background-image: url(media/4.jpg);}
+    30% {background-image: url(media/5.jpg);}
+    50% {background-image: url(media/6.jpg);}
+    80% {background-image: url(media/2.jpg);}
+    90% {background-image: url(media/1.jpg);}
+    100% {background-image: url(media/3.jpg);}
+    }
+
+  .img-box3 {
+    margin: 15px ;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-image: url(Media/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    animation: ib3 30s infinite step-start;
+  
+  }
+
+  @keyframes ib3 {
+    0% {background-image: url(media/3.jpg);}
+    20% {background-image: url(media/4.jpg);}
+    30% {background-image: url(media/5.jpg);}
+    50% {background-image: url(media/6.jpg);}
+    80% {background-image: url(media/2.jpg);}
+    90% {background-image: url(media/1.jpg);}
+    100% {background-image: url(media/3.jpg);}
+    }
+
+
