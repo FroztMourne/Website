@@ -8,9 +8,13 @@
     background-color:rgb(58, 67, 77);
     width: 830px;
     height: 600px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding:0px 40px 20px 20px;
     transition: 0.3s;
+}
+
+.call-back-form:hover {
+    transform: perspective(400px) rotateX(2deg);
 }
 
 .call-back-form:hover {
@@ -129,7 +133,7 @@
 
 @media (max-width:1000px) {
     .call-back-form {
-        width: 90%;
+        width: 85%;
         font-size: 50px;
         height: 1200px;
     }
@@ -149,6 +153,13 @@
         font-size: 50px;
         margin: 0px 0px 150px;
         padding: 0px;
+       
+    }
+}
+
+@media (max-width:1000px) {
+    .call-back-form label {
+        font-size: 50px;
        
     }
 }
