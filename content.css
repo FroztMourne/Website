@@ -101,7 +101,7 @@
   .text-box p {
     font-size: 45px;
     width: 90%;
-    white-space: nowrap;
+    
   }
 }
 
@@ -109,7 +109,7 @@
   .text-box {
     margin-top: 150px;
     margin-bottom: 150px;
-    white-space: nowrap;
+    
   }
 }
 

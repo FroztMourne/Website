@@ -27,17 +27,8 @@
     color: white;
     font-size: 45px;
     margin-top: 40px;
-    background-image: linear-gradient(0deg, orange , white 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: 0.5s;
 }
 
-.call-back-form p:hover {
-    background-image: linear-gradient(0deg, orange , white 100%);
-    text-shadow: 1px 1px 10px orange;
-}
 
 .area2 input,
 .area1 input {
@@ -117,12 +108,6 @@
     color: grey;
     
 }
-
-
-.comment-section:focus::placeholder {
-   
-}
-
 
 
 
