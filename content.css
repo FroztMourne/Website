@@ -76,19 +76,6 @@
   }
 }
 
-.img-box {
-  margin: 15px ;
-  display: flex;
-  width: 1000px;
-  height: 500px;
-  background-image: url(Media/1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-
-
 .text-box {
   display: flex;
   flex-direction: column;
