@@ -6,7 +6,7 @@
     background-image: url(img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation: ib1 30s infinite step-start reverse;
+    animation:  ib1 30s infinite step-start reverse;
   
   }
 

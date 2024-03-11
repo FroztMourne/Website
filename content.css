@@ -101,6 +101,7 @@
   .text-box p {
     font-size: 45px;
     width: 90%;
+    white-space: nowrap;
   }
 }
 
@@ -108,8 +109,21 @@
   .text-box {
     margin-top: 150px;
     margin-bottom: 150px;
+    white-space: nowrap;
   }
 }
+
+@media (max-width: 645px) {
+  .text-box p {
+    font-size: 25px;
+    width: 90%;
+  }
+}
+
+
+
+
+
 
 hr {
   border: 1px rgb(58, 67, 77) solid ;

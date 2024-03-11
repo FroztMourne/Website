@@ -35,6 +35,15 @@
   }
 }
 
+@media (max-width: 645px)  {
+  .left-section {
+    font-size: 40px;
+    align-self: center;
+    
+    
+  }
+}
+
 
 .right-section {
   justify-content: center;
