@@ -3,10 +3,11 @@
     display: flex;
     width: 1000px;
     height: 500px;
-    background-image: url(img1.jpg);
+    background-image: url(img6.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    animation:  ib1 30s infinite step-start reverse;
+    background-size: 100% 100%;
+    animation:  ib1 20s infinite reverse;
+
   
   }
 
@@ -28,7 +29,7 @@
     height: 500px;
     background-image: url(img2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     animation: ib2 30s infinite step-start alternate-reverse;
   }
 
@@ -49,7 +50,7 @@
     height: 500px;
     background-image: url(img3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 
 
     animation: ib3 30s infinite step-start;
