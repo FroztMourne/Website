@@ -30,7 +30,7 @@
     background-image: url(img2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    animation: ib2 30s infinite step-start alternate-reverse;
+    animation: ib2 30s infinite  alternate-reverse;
   }
 
   @keyframes ib2 {
@@ -53,7 +53,7 @@
     background-size: 100% 100%;
 
 
-    animation: ib3 30s infinite step-start;
+    animation: ib3 30s infinite ;
   
   }
 
